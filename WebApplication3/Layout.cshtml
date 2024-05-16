@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title - MySite</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+    @RenderSection("styles", required: false)
+</head>
+<body>
+    <header>
+      
+    </header>
+    <div id="content">
+        @RenderBody()
+    </div>
+    <footer>
+      
+    </footer>
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
